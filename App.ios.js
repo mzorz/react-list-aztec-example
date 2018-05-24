@@ -16,6 +16,7 @@ import {
 } from 'react-native';
 
 import RecyclerViewList, { DataSource } from 'react-native-recyclerview-list';
+import RCTAztecView from 'react-native-aztec';
 
 var _gCounter = 1;
 function newItem() {

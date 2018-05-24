@@ -2,7 +2,25 @@
 
 ## Android: Run the example app
 
-Make sure to have an emulator running or an Android device connected, and then:
+1. First of all make sure you have `react` and `react-native` installed separately in the dependency projects as a result of running the example apps in  `react-native-aztec` and `react-native-recyclerview-list`.
+
+If you get errors, please first run `rm -rf node_modules/` on both the root (`\`) and `/example` folders of each of these 2 projects, i.e.:
+
+```
+$ cd react-native-aztec
+$ rm -rf node_modules/
+$ cd example
+$ rm -rf node_modules/
+
+$ cd ../../react-native-recyclerview-list/
+$ rm -rf node_modules/
+$ cd example
+$ rm -rf node_modules/
+
+```
+
+
+2. Make sure to have an emulator running or an Android device connected, and then:
 
 ```
 $ yarn clean:install

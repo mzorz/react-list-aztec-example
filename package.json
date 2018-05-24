@@ -1,5 +1,5 @@
 {
-	"name": "example",
+	"name": "example-list",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -14,10 +14,6 @@
 		"clean-react": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/react-native-packager-cache-*;",
 		"clean-watchman": "watchman watch-del-all;",
 		"clean:install": "yarn clean && yarn install"
-	},
-	"workspaces": {
-		"packages": ["packages/*"],
-		"nohoist": ["**/react-native", "**/react-native/**"]
 	},
 	"dependencies": {
 		"react": "^16.3.0-alpha.1",
